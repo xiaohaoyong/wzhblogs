@@ -10,7 +10,7 @@
             <li><?php _e('分类: '); ?><?php $this->category(','); ?></li>
         </ul>
         <div class="post-content" itemprop="articleBody">
-            <?php $this->excerpt(500,'...'); ?>
+            <?php $this->content(); ?>
         </div>
         <p itemprop="keywords" class="tags"><?php _e('标签: '); ?><?php $this->tags(', ', true, 'none'); ?></p>
     </article>
